@@ -17,6 +17,8 @@
     </button>
 
     <input type="text" v-model="name">
+    <p><button v-on:click="toggleInfo()">Toggle the info</button></p>
+    <p v-if="showInfo">Here is some more info</p>
   </div>
   <script src="index.js"></script>
 </body>
